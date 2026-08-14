@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StrategyClick.in | Digital Marketing Agency</title>
+<meta name="description" content="StrategyClick.in — Digital Marketing, Paid Ads, Graphic Design and Creative Marketing.">
+<style>
+:root{--navy:#0D3568;--navy2:#061A35;--gold:#F2C34E;--gold2:#FFD86A;--bg:#03070D;--card:#0A1626;--muted:#A7B0BE;--border:rgba(242,195,78,.2)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:#fff;line-height:1.6;overflow-x:hidden}
+a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:auto}
+header{position:fixed;inset:0 0 auto;z-index:1000;background:#F9FAF7;border-bottom:1px solid #E8E8E8;box-shadow:0 4px 20px rgba(0,0,0,.04)}
+.nav{height:82px;display:flex;align-items:center;justify-content:space-between}.logo img{width:220px}
+.nav ul{display:flex;gap:12px;align-items:center;list-style:none}.nav a{display:inline-block;font-size:14px;font-weight:600;color:#FFFFFF;background:#061A35;padding:10px 18px;border-radius:25px;transition:.3s}.nav a:hover{background:#F2C34E;color:#061A35;transform:translateY(-2px)}
+.nav .cta{background:#061A35;color:#FFFFFF;padding:10px 20px;border-radius:25px;font-weight:700}.nav .cta:hover{background:#F2C34E;color:#061A35}
+.hero{min-height:100vh;display:flex;align-items:center;padding:135px 0 90px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:550px;height:550px;background:var(--navy);filter:blur(160px);opacity:.5;left:-220px;top:-180px}
+.hero:after{content:"";position:absolute;width:430px;height:430px;background:var(--gold);filter:blur(190px);opacity:.1;right:-170px;bottom:-170px}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}
+.eyebrow,.label{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:4px;text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(46px,6vw,82px);line-height:.98;letter-spacing:-4px;margin-bottom:26px}
+.gold{color:var(--gold)}.hero p,.about p,.section-desc{color:var(--muted);font-size:17px;max-width:650px}
+.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}.btn{padding:14px 24px;border-radius:13px;font-weight:800;transition:.3s;display:inline-block}
+.primary{background:var(--gold);color:var(--navy2);box-shadow:0 15px 45px rgba(242,195,78,.16)}.primary:hover{transform:translateY(-3px);background:var(--gold2)}
+.outline{border:1px solid var(--border)}.outline:hover{border-color:var(--gold);color:var(--gold)}
+.panel{padding:20px;border-radius:30px;background:linear-gradient(145deg,rgba(13,53,104,.55),rgba(10,22,38,.6));border:1px solid var(--border)}
+.dashboard{background:#07101c;border-radius:23px;padding:23px;border:1px solid rgba(255,255,255,.08)}
+.dtop{display:flex;justify-content:space-between;margin-bottom:22px}.status{font-size:12px;color:var(--gold)}
+.chart{height:175px;border-radius:18px;background:linear-gradient(145deg,rgba(13,53,104,.5),rgba(242,195,78,.08));position:relative;overflow:hidden;margin-bottom:15px}
+.chart:after{content:"";position:absolute;left:0;right:0;top:58px;height:1px;background:rgba(255,255,255,.06);box-shadow:0 58px rgba(255,255,255,.06)}
+.line{position:absolute;width:125%;height:90px;left:-20px;top:75px;border-top:3px solid var(--gold);transform:rotate(-12deg);box-shadow:0 -10px 35px rgba(242,195,78,.25)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}.stat{background:#0b1726;border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:17px}.stat b{display:block;font-size:25px;color:var(--gold)}.stat span{font-size:12px;color:#8793a3}
+section{padding:110px 0}.dark{background:linear-gradient(180deg,#07101c,#040910);border-block:1px solid rgba(255,255,255,.04)}
+.title{font-size:clamp(36px,5vw,55px);line-height:1.05;letter-spacing:-2px;margin-bottom:18px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about p{line-height:1.9}.about-box{margin-top:25px;padding:26px;border:1px solid var(--border);border-radius:22px;background:var(--card)}.about-box strong{color:var(--gold);font-size:27px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:17px;margin-top:48px}
+.card{padding:29px 23px;border-radius:23px;background:linear-gradient(145deg,#0d1b2c,#08111d);border:1px solid rgba(255,255,255,.07);transition:.3s}.card:hover{transform:translateY(-8px);border-color:rgba(242,195,78,.55)}
+.num{color:var(--gold);font-weight:900;font-size:13px;margin-bottom:22px}.card h3{font-size:21px;margin-bottom:12px}.card p{color:#8f9aaa;font-size:13px;margin-bottom:18px}.card ul{list-style:none;color:#b5bfcc;font-size:13px}.card li{margin:8px 0}.card li:before{content:"✓";color:var(--gold);margin-right:8px}
+.grid5{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:48px}.mini{padding:26px 19px;border-radius:20px;background:#091522;border:1px solid rgba(255,255,255,.07)}.mini h3{font-size:17px;margin-bottom:10px}.mini p{color:#8995a4;font-size:13px}
+.process{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}.step{padding:29px;border-radius:22px;background:#091522;border:1px solid rgba(255,255,255,.07)}.step strong{font-size:40px;color:var(--gold);display:block}.step h3{margin:8px 0}.step p{color:#8995a4;font-size:13px}
+.ach{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:48px}.ach div{text-align:center;padding:32px 20px;border-radius:22px;background:linear-gradient(145deg,#0d1b2c,#08111d);border:1px solid var(--border)}.ach b{display:block;font-size:37px;color:var(--gold)}.ach span{color:#919dac;font-size:12px}
+.pills{display:flex;flex-wrap:wrap;gap:11px;margin-top:35px}.pill{padding:11px 18px;border-radius:50px;background:#091522;border:1px solid rgba(255,255,255,.08);color:#cbd3dd;font-size:13px}.pill:hover{border-color:var(--gold);color:var(--gold)}
+.ind{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:43px}.ind div{text-align:center;padding:24px;border-radius:19px;background:#091522;border:1px solid rgba(255,255,255,.07);color:#c8d0da}
+.port{display:grid;grid-template-columns:repeat(3,1fr);gap:19px;margin-top:48px}.work{height:300px;border-radius:24px;position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.08);background:radial-gradient(circle at 85% 15%,rgba(242,195,78,.28),transparent 30%),radial-gradient(circle at 15% 85%,rgba(13,53,104,.75),transparent 45%),#0a1626}.work:after{content:"VIEW PROJECT";position:absolute;top:18px;right:18px;font-size:9px;letter-spacing:2px;color:var(--gold);border:1px solid var(--border);padding:7px 10px;border-radius:20px}.work .caption{position:absolute;bottom:0;left:0;right:0;padding:26px;background:linear-gradient(transparent,rgba(3,7,13,.98))}.caption h3{font-size:19px}.caption p{font-size:12px;color:#909baa}
+.goals{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:43px}.goal{padding:24px;border:1px solid var(--border);border-radius:20px;background:rgba(9,21,34,.7)}.goal strong{display:block;margin-bottom:7px}.goal span{color:#8f9aaa;font-size:13px}
+.contact{padding:65px;border-radius:34px;text-align:center;background:radial-gradient(circle at 10% 20%,rgba(13,53,104,.7),transparent 35%),radial-gradient(circle at 90% 80%,rgba(242,195,78,.12),transparent 30%),#07111d;border:1px solid var(--border)}.contact h2{font-size:clamp(38px,5vw,62px);line-height:1.05}.contact p{max-width:620px;color:#929daa;margin:18px auto 0}.details{display:flex;justify-content:center;gap:27px;flex-wrap:wrap;color:#c0c8d2;margin-top:28px;font-size:13px}
+footer{border-top:1px solid rgba(255,255,255,.07);padding:34px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px}.foot img{width:185px}.foot p{color:#687383;font-size:12px}
+.wa{position:fixed;right:24px;bottom:24px;width:56px;height:56px;border-radius:50%;background:var(--gold);color:var(--navy2);display:flex;align-items:center;justify-content:center;font-weight:900;z-index:999;box-shadow:0 10px 35px rgba(242,195,78,.22)}
+@media(max-width:1050px){.nav ul{display:none}.hero-grid,.about{grid-template-columns:1fr}.grid4{grid-template-columns:1fr 1fr}.grid5{grid-template-columns:1fr 1fr}.ach{grid-template-columns:1fr 1fr}.ind{grid-template-columns:1fr 1fr}.port{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){section{padding:75px 0}.logo img{width:175px}h1{letter-spacing:-2px}.grid4,.process,.port,.goals{grid-template-columns:1fr}.grid5,.ach,.ind{grid-template-columns:1fr 1fr}.contact{padding:40px 20px}.foot{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+
+<header><div class="container nav">
+  <a href="#home" class="logo"><img src="logo.png" alt="StrategyClick.in"></a>
+  <ul>
+    <li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#process">Process</a></li><li><a href="#portfolio">Portfolio</a></li><li><a class="cta" href="#contact">Get a Quote</a></li>
+  </ul>
+</div></header>
+
+<section class="hero" id="home"><div class="container hero-grid">
+  <div><div class="eyebrow">Digital Marketing Agency</div>
+    <h1>Scaling Brands <span class="gold">With Creative Marketing</span></h1>
+    <p>We help businesses grow through strategic digital marketing, high-converting paid advertising, powerful branding and premium creative designs.</p>
+    <div class="buttons"><a class="btn primary" href="#portfolio">View Our Work</a><a class="btn outline" href="#contact">Let's Work Together</a></div>
+  </div>
+  <div class="panel"><div class="dashboard"><div class="dtop"><b>Campaign Performance</b><span class="status">● Performance Focused</span></div><div class="chart"><div class="line"></div></div><div class="stats"><div class="stat"><b>3X</b><span>Lead Generation Growth</span></div><div class="stat"><b>25%</b><span>Conversion Improvement</span></div><div class="stat"><b>120+</b><span>Creative Designs</span></div><div class="stat"><b>ROI</b><span>Performance Focused</span></div></div></div></div>
+</div></section>
+
+<section id="about"><div class="container about"><div><div class="label">About Us</div><h2 class="title">Creative Marketing <span class="gold">That Delivers Results</span></h2></div><div class="about"><div><p>We are a results-driven digital marketing agency helping businesses grow through strategic marketing, high-converting paid advertisements, and premium creative designs.<br><br>Our focus is to build strong online visibility, generate quality leads, increase sales, and create impactful branding for businesses across different industries.<br><br>We combine creativity, marketing strategy, and performance analytics to deliver measurable results.</p><div class="about-box"><strong>Strategize. Click. Profit.</strong><br>Creative thinking backed by performance-focused marketing.</div></div></div></div></section>
+
+<section id="services" class="dark"><div class="container"><div class="label">Our Services</div><h2 class="title">Everything Your Brand <span class="gold">Needs To Grow</span></h2><div class="grid4">
+<div class="card"><div class="num">01</div><h3>Digital Marketing</h3><p>Build a strong digital presence and connect with the right audience.</p><ul><li>Social Media Management</li><li>Content Planning & Strategy</li><li>Brand Building</li><li>Instagram & Facebook Growth</li><li>Audience Engagement</li><li>Business Promotions</li></ul></div>
+<div class="card"><div class="num">02</div><h3>Paid Advertising</h3><p>Reach the right customers with performance-focused advertising.</p><ul><li>Meta Ads</li><li>Google Ads</li><li>YouTube Ads</li><li>Lead Generation</li><li>Retargeting</li><li>Conversion Optimization</li></ul></div>
+<div class="card"><div class="num">03</div><h3>Graphic Design</h3><p>Create professional visuals that make your brand stand out.</p><ul><li>Social Media Posters</li><li>Advertisement Creatives</li><li>Branding Designs</li><li>Logo Design</li><li>Motion Graphics</li><li>Thumbnail Designs</li></ul></div>
+<div class="card"><div class="num">04</div><h3>Video Editing</h3><p>Turn ideas into engaging videos for social media and advertising.</p><ul><li>Reels Editing</li><li>Promotional Videos</li><li>Social Media Videos</li><li>Ad Video Editing</li><li>YouTube Editing</li><li>Motion Editing</li></ul></div>
+</div></div></section>
+
+<section><div class="container"><div class="label">Why Choose Us</div><h2 class="title">Marketing Built Around <span class="gold">Your Goals</span></h2><div class="grid5">
+<div class="mini"><h3>Creative & Modern Designs</h3><p>Eye-catching creatives that attract attention and improve engagement.</p></div><div class="mini"><h3>Result-Oriented Marketing</h3><p>Campaigns focused on leads, reach, conversions and business results.</p></div><div class="mini"><h3>Performance Tracking</h3><p>Continuous monitoring and optimization for better performance.</p></div><div class="mini"><h3>Professional Support</h3><p>Quick communication and dedicated support throughout projects.</p></div><div class="mini"><h3>Strategic Campaigns</h3><p>Targeted strategies based on audience behavior and business goals.</p></div>
+</div></div></section>
+
+<section id="process" class="dark"><div class="container"><div class="label">Our Process</div><h2 class="title">From Strategy <span class="gold">To Results</span></h2><div class="process">
+<div class="step"><strong>01</strong><h3>Research & Analysis</h3><p>We understand your business, audience and competitors.</p></div><div class="step"><strong>02</strong><h3>Strategy Planning</h3><p>We create customized marketing strategies for your brand.</p></div><div class="step"><strong>03</strong><h3>Creative Development</h3><p>Designing premium creatives and advertising materials.</p></div><div class="step"><strong>04</strong><h3>Campaign Launch</h3><p>Running optimized campaigns across multiple platforms.</p></div><div class="step"><strong>05</strong><h3>Optimization</h3><p>Monitoring and improving campaign performance continuously.</p></div><div class="step"><strong>06</strong><h3>Reporting</h3><p>Providing transparent reports and campaign insights.</p></div>
+</div></div></section>
+
+<section><div class="container"><div class="label">Our Achievements</div><h2 class="title">Numbers That <span class="gold">Matter</span></h2><div class="ach"><div><b>3X</b><span>Lead Generation Growth</span></div><div><b>25%</b><span>Conversion Rate Improvement</span></div><div><b>120+</b><span>Creative Designs</span></div><div><b>ROI</b><span>Performance Focused Campaigns</span></div></div></div></section>
+
+<section class="dark"><div class="container"><div class="label">Tools We Use</div><h2 class="title">Powered By <span class="gold">The Right Tools</span></h2><div class="pills"><span class="pill">Meta Ads Manager</span><span class="pill">Google Ads</span><span class="pill">Canva</span><span class="pill">Adobe Photoshop</span><span class="pill">Adobe Premiere Pro</span><span class="pill">CapCut</span><span class="pill">Google Analytics</span><span class="pill">Business Suite</span></div></div></section>
+
+<section><div class="container"><div class="label">Industries We Work With</div><h2 class="title">Brands We <span class="gold">Work With</span></h2><div class="ind"><div>Fitness & Weight Loss</div><div>Beauty & Skincare</div><div>Fashion Brands</div><div>Restaurants & Cafes</div><div>Education & Training</div><div>Real Estate</div><div>Personal Brands</div><div>Local Businesses</div></div></div></section>
+
+<section id="portfolio" class="dark"><div class="container"><div class="label">Portfolio Showcase</div><h2 class="title">Work That <span class="gold">Gets Attention</span></h2><div class="port">
+<div class="work"><div class="caption"><h3>Lead Generation Campaigns</h3><p>Paid Ads Campaign</p></div></div><div class="work"><div class="caption"><h3>Brand Awareness Ads</h3><p>Social Media Campaign</p></div></div><div class="work"><div class="caption"><h3>Engagement Campaigns</h3><p>Meta Advertising</p></div></div><div class="work"><div class="caption"><h3>Instagram Creatives</h3><p>Social Media Design</p></div></div><div class="work"><div class="caption"><h3>Carousel Designs</h3><p>Content Design</p></div></div><div class="work"><div class="caption"><h3>Branding Projects</h3><p>Creative Branding</p></div></div>
+</div></div></section>
+
+<section><div class="container"><div class="label">Client Goals</div><h2 class="title">What We Help <span class="gold">You Achieve</span></h2><div class="goals">
+<div class="goal"><strong>Generate More Leads</strong><span>Build campaigns that attract potential customers.</span></div><div class="goal"><strong>Increase Sales</strong><span>Turn marketing efforts into measurable business growth.</span></div><div class="goal"><strong>Improve Brand Visibility</strong><span>Make your brand visible to the right audience.</span></div><div class="goal"><strong>Build Social Media Presence</strong><span>Create a consistent and professional digital presence.</span></div><div class="goal"><strong>Grow Audience Engagement</strong><span>Build stronger relationships with your audience.</span></div><div class="goal"><strong>Create Professional Branding</strong><span>Build a memorable and recognizable brand identity.</span></div>
+</div></div></section>
+
+<section id="contact"><div class="container"><div class="contact"><div class="label">Contact Us</div><h2>Let's Grow Your <span class="gold">Brand Together</span></h2><p>Ready to improve your digital presence, generate more leads and build a stronger brand? Let's talk about your next campaign.</p><div class="buttons" style="justify-content:center"><a class="btn primary" href="https://wa.me/919159596960" target="_blank">Start a Conversation</a></div><div class="details"><span>+91 91595 96960</span><span>youragency@email.com</span><span>@youragency</span><span>Tamil Nadu, India</span></div></div></div></section>
+
+<footer><div class="container foot"><img src="logo.png" alt="StrategyClick.in"><p>Digital Marketing • Paid Ads • Graphic Design • Video Editing</p><p>© 2026 StrategyClick.in. All Rights Reserved.</p></div></footer>
+<a class="wa" href="https://wa.me/919159596960" target="_blank">WA</a>
+</body>
+</html>
